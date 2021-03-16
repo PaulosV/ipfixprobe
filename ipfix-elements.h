@@ -214,6 +214,9 @@
 
 #define OVPN_CONF_LEVEL(F)            F(8057,    828,   1,   NULL)
 
+#define WIREGUARD_SENDER(F)           F(8057,   861,   16,   NULL)
+#define WIREGUARD_RECEIVER(F)         F(8057,   861,   16,   NULL)
+
 #define NB_NAME(F)                    F(8057,    831,  -1,   NULL)
 #define NB_SUFFIX(F)                  F(8057,    832,   1,   NULL)
 
